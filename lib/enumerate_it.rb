@@ -195,7 +195,7 @@ module EnumerateIt
     end
 
     def self.to_a
-      enumeration.values.map {|value| [translate(value[1]), value[0]] }.sort_by { |value| value[0] }
+      enumeration.values.map {|value| [translate(value[1]), value[0]] }
     end
 
     def self.t(value)
