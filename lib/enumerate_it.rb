@@ -64,7 +64,7 @@
 #
 # You can get an array of options, ready to use with the 'select', 'select_tag', etc family of Rails helpers.
 #
-# RelationshipStatus.to_a # [["Divorced", 4],["Married", 2],["Single", 1],["Widow", 3]]
+# RelationshipStatus.to_a # [["Single", 1],["Married", 2],["Widow", 3],["Divorced", 4]]
 #
 # You can retrive a list with values for a group of enumeration constants
 #
